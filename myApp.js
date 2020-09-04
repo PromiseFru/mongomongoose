@@ -291,7 +291,6 @@ var removeManyPeople = function(done) {
     if (err) return console.log(err);
     done(null, response);
   })
-  done(null/*, data*/);
 };
 
 /** # C[R]UD part V -  More about Queries # 
